@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.min.css?_v=20231108235119">
+    <link rel="stylesheet" href="./css/style.min.css?_v=20231110140020">
     <title>Contacts</title>
     <link rel="icon" href="img/icons/favicon.svg" type="image/x-icon">
 </head>
@@ -67,7 +67,10 @@
                             <div class="tittle contact-us__tittle">Contact us</div>
                             <p class="parag contact-us__parag">Please complete the form. Detailed information will help us to make a tuned offer.</p>
                             <div class="img-and-form">
-                                <picture><source srcset="img/image-contact-near-form.webp" type="image/webp"><img class="img-and-form__img" src="img/image-contact-near-form.jpg" alt=""></picture>
+                                <picture class="img-and-form__img">
+                                    <source srcset="img/image-contact-near-form.jpg">
+                                    <img src="img/image-contact-near-form.jpg" alt="">
+                                </picture>
                                 <form action="" method="get" class="form contact-us__form">
                                     <div class="form__top">
                                         <div>
@@ -79,8 +82,8 @@
                                             <input class="input form__input" type="email" id="email" placeholder="Your working email">
                                         </div>
                                         <div>
-                                            <label class="label form" for="location">I am interested in</label>
-                                            <select name="location" id="location" class="input form__input">
+                                            <label class="label form" for="interested">I am interested in</label>
+                                            <select name="location" id="interested" class="input form__input">
                                                 <option value="europe">Interior Design</option>
                                                 <option value="Asia">Project Development</option>
                                                 <option value="Africa">Construction</option>
@@ -192,7 +195,7 @@
         </div>
     </div>
 </footer>
-            <script src="js/app.min.js?_v=20231108235119"></script>
+            <script src="js/app.min.js?_v=20231110140020"></script>
         </div>
     </body>
 </html>
