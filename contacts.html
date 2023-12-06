@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.min.css?_v=20231206150440">
+    <link rel="stylesheet" href="./css/style.min.css?_v=20231206163028">
     <title>Contacts</title>
     <link rel="icon" href="img/icons/favicon.svg" type="image/x-icon">
 </head>
@@ -75,11 +75,11 @@
                                     <div class="form__top">
                                         <div>
                                             <label class="label form" for="name">Name*</label>
-                                            <input class="input form__input" type="text" id="name" placeholder="Your name" name="name" autofocus>
+                                            <input class="input form__input" type="text" id="name" placeholder="Your name" name="name" autofocus required>
                                             <label class="label form" for="phone">Phone*</label>
-                                            <input class="input form__input" type="tel" id="phone" placeholder="Your phone number" name="phone">
+                                            <input class="input form__input" type="tel" id="phone" placeholder="Your phone number" name="phone" required>
                                             <label class="label form" for="email">Email*</label>
-                                            <input class="input form__input" type="email" id="email" placeholder="Your working email" name="email">
+                                            <input class="input form__input" type="email" id="email" placeholder="Your working email" name="email" required>
                                         </div>
                                         <div>
                                             <label class="label form" for="interested">I am interested in</label>
@@ -110,7 +110,7 @@
                                     </div>
                                     <div class="form__bottom">
                                         <label class="label form__label" for="message">Message*</label>
-                                        <textarea class="input form__textaria" name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                                        <textarea class="input form__textaria" name="message" id="message" cols="30" rows="10" placeholder="Your message" required></textarea>
                                         <div>
                                             <input type="checkbox" id="form__agree" name="agree">
                                             <label class="label footer__label" for="form__agree">I agree to receive communications from Createx Construction Bureau.</label>
@@ -132,9 +132,9 @@
             <form action="" method="get" class="footer__form">
                 <p class="footer__tittle">A quick way to discuss details</p>
                 <label class="label footer__label" for="name">Name*</label>
-                <input name="name" class="input footer__input" type="text" id="name" placeholder="Your name" autocomplete="on">
+                <input name="name" class="input footer__input" type="text" id="name" placeholder="Your name" autocomplete="on" required>
                 <label class="label footer__label" for="phone">Phone*</label>
-                <input name="phone" class="input footer__input" type="tel" id="phone" placeholder="Your phone number" autocomplete="on">
+                <input name="phone" class="input footer__input" type="tel" id="phone" placeholder="Your phone number" autocomplete="on" required>
                 <label class="label footer__label" for="email">Email</label>
                 <input name="email" class="input footer__input" type="email" id="email" placeholder="Your working email" autocomplete="on">
                 <label class="label footer__label" for="message">Message</label>
@@ -237,7 +237,7 @@
         </div>
     </div>
 </footer>
-            <script src="js/app.min.js?_v=20231206150440"></script>
+            <script src="js/app.min.js?_v=20231206163028"></script>
         </div>
     </body>
 </html>
